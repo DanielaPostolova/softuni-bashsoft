@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BashSoft", "BashSoft\BashSoft.csproj", "{50D76F60-FE07-46FA-8671-63C762C9D68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{4068B357-92A0-49F5-9B63-A0467F984D53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D76F60-FE07-46FA-8671-63C762C9D68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D76F60-FE07-46FA-8671-63C762C9D68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D76F60-FE07-46FA-8671-63C762C9D68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D76F60-FE07-46FA-8671-63C762C9D68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4068B357-92A0-49F5-9B63-A0467F984D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4068B357-92A0-49F5-9B63-A0467F984D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4068B357-92A0-49F5-9B63-A0467F984D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4068B357-92A0-49F5-9B63-A0467F984D53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6595A8EC-A338-4C9F-B4F7-56E8F4DFEA2C}
+	EndGlobalSection
+EndGlobal
