@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,17 @@ namespace BashSoft.Core.Providers
         {
             var fullDirectoryPath = string.Concat(this.CurrentDirectory, $"//{directoryName}");
             Directory.CreateDirectory(fullDirectoryPath);
+        }
+
+        public IEnumerable<string> GetDirectoryContent(string directoryPath)
+        {
+            return Directory.GetDirectories(directoryPath)
+                .Concat(Directory.GetFiles(directoryPath));
+        }
+
+        public bool IsDirectory(string directotyPath)
+        {
+            return Directory.Exists(directotyPath);
         }
     }
 }

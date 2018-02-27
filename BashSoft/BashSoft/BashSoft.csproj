@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AutofacConfig.cs" />
     <Compile Include="Commands\CdCommand.cs" />
+    <Compile Include="Commands\LsCommand.cs" />
     <Compile Include="Commands\MkdirCommand.cs" />
     <Compile Include="Commands\OpenCommand.cs" />
     <Compile Include="Core\Factories\CommandFactory.cs" />

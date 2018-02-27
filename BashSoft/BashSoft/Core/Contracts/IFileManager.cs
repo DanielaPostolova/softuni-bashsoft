@@ -1,4 +1,6 @@
-﻿namespace BashSoft.Core.Contracts
+﻿using System.Collections.Generic;
+
+namespace BashSoft.Core.Contracts
 {
     public interface IFileManager
     {
@@ -7,5 +9,9 @@
         void OpenFile(string fileName);
 
         void CreateDirectory(string directoryName);
+
+        IEnumerable<string> GetDirectoryContent(string directoryPath);
+
+        bool IsDirectory(string directotyPath);
     }
 }

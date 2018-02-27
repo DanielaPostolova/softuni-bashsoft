@@ -39,7 +39,7 @@ namespace BashSoft.Core
                 }
                 catch (Exception e)
                 {
-                    this.consoleRenderer.WriteLine(e.Message);
+                    this.consoleRenderer.WriteLine(e.Message, ConsoleColor.Red);
                 }
             }
         }
