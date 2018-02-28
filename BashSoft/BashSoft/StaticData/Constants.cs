@@ -3,12 +3,13 @@
     internal static class Constants
     {
         //error messages
-        public const string InvalidCommandErrorMessage = "Invalid command {0}!";
+        public const string InvalidCommandErrorMessage = "Invalid command!";
 
         public const string DirectoryCannotOpenErrorMessage = "Cannot open directory {0}!"; //cd
         public const string CannotCreateDirectoryErrorMessage = "Cannot create directory {0}!"; //mkdir
         public const string FileCannotOpenErrorMessage = "Cannot open file {0}!"; //open
         public const string CannotTraverseDirectoryErrorMessage = "Cannot traverse directory {0}!"; //ls
+        public const string CannotClearConsoleErrorMessage = "Invalid operation! Output is redirected to a file!"; //clear
 
         public const string InvalidCommandParametersErrorMessage = "Command parameters are invalid!";
         //success messages

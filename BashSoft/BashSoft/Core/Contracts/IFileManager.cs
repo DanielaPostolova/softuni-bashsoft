@@ -13,5 +13,7 @@ namespace BashSoft.Core.Contracts
         IEnumerable<string> GetDirectoryContent(string directoryPath);
 
         bool IsDirectory(string directotyPath);
+
+        void ClearConsole();
     }
 }

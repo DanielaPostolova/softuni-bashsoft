@@ -31,7 +31,7 @@ namespace BashSoft.Commands
             }
             catch (Exception)
             {
-                throw new ArgumentException(Constants.InvalidCommandErrorMessage);
+                throw new ArgumentException(Constants.InvalidCommandParametersErrorMessage);
             }
         }
 

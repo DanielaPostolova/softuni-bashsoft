@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using BashSoft.Commands.Contracts;
 using BashSoft.Core.Contracts;
+using BashSoft.StaticData;
 
 namespace BashSoft.Core.Providers
 {
@@ -29,7 +30,7 @@ namespace BashSoft.Core.Providers
             }
             catch (Exception)
             {
-                throw new ArgumentException("Invalid command input");
+                throw new ArgumentException(Constants.InvalidCommandErrorMessage);
             }
         }
 

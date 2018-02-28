@@ -38,5 +38,10 @@ namespace BashSoft.Core.Providers
         {
             return Directory.Exists(directotyPath);
         }
+
+        public void ClearConsole()
+        {
+            Console.Clear();
+        }
     }
 }

@@ -9,15 +9,8 @@ namespace BashSoft.Core.Providers
     {
         public string Process(ICommand command, IList<string> commandParameters)
         {
-            try
-            {
-                var commandResult = command.Execute(commandParameters);
-                return commandResult;
-            }
-            catch (Exception e)
-            {
-                return e.Message;
-            }
+            var commandResult = command.Execute(commandParameters);
+            return commandResult;
         }
     }
 }
